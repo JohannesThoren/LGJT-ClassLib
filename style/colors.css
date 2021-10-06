@@ -1,0 +1,17 @@
+.txt_ok {color: var(--acc1)}
+.txt_warning {color: var(--acc2)}
+.txt_emph {color: var(--acc3)}
+
+.dark {
+    --color: white;
+
+    background-color: var(--dark);
+    color: var(--color);
+}
+
+.light {
+    --color: black;
+    
+    background-color: white;
+    color: var(--color);
+}

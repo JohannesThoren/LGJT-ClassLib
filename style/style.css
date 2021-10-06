@@ -1,0 +1,10 @@
+.title {
+    font-family: var(--font);
+    font-size: 2em;
+}
+
+.subtitle {
+    font-family: var(--font);
+    font-size: 1.2em;
+    color: grey;
+}

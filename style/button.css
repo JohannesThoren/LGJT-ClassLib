@@ -1,0 +1,58 @@
+
+.button {
+    border: 2px solid var(--acc3);
+    text-decoration: none;
+    font-family: var(--font);
+    border-radius: var(--radius);
+    padding: 4px;
+    background-color: var(--acc3);
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    min-width: 50px;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: var(--acc3);
+    transition: 0.2s;
+}
+
+.button_ok {
+    border: 2px solid var(--acc1);
+    background-color: var(--acc1);
+}
+
+.button_ok:hover {
+    color: var(--acc1);
+}
+
+.button_warning {
+    border: 2px solid var(--acc2);
+    background-color: var(--acc2);
+}
+
+.button_warning:hover {
+    color: var(--acc2);
+}
+
+.button_group {
+    display: flex;
+    align-items: center;
+}
+
+.button_group .button {
+    border-radius: 0;
+}
+
+.button_group .button:first-child {
+    border-top-left-radius: var(--radius);
+    border-bottom-left-radius: var(--radius);
+
+}
+
+.button_group .button:last-child{
+    border-top-right-radius: var(--radius);
+    border-bottom-right-radius: var(--radius);
+
+}
