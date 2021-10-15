@@ -13,19 +13,41 @@
     margin: var(--card-margin);
     margin-left: var(--card-margin);
     margin-right: var(--card-margin);
-    border-radius: var(--radius);
-    min-width: 100px;
-    min-height: 100px;
+    border-radius: var(--card-radius);
+
+    width:100%;
+
+    position: relative;
+
 }
 
-.card-l {
-    width: 75%;
+.card-content {
+    min-height:100px;
+    padding: var(--card-padding);
+    width: 100% - var(--card-padding);
 }
 
-.card-m {
-    width: 50%;
+.card-header {
+    min-height: 50px;
+    width: 100% - var(--card-padding);
+
+    border-radius: inherit;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+    padding: var(--card-padding)
+
+
 }
 
-.card-s {
-    width: 25%;
+.card-footer {
+    min-height: 50px;
+    padding: var(--card-padding);
+
+
+    border-radius: inherit;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+
 }

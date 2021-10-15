@@ -1,14 +1,24 @@
 :root {
-    --acc1: #55dd55;
-    --acc2: #dd5555;
-    --acc3: #5555dd;
+    --acc1: #3BA55D;
+    --acc2: #C03537;
+    --acc3: #7289DA;
 
-    --dark: #2f2f2f;
-    
-    --color: black;
+    --dark: #36393F;
+    --darker: #2F3136;
+    --darkest: #202225;
+    --light: white;
+
+    --txt1: white;
+    --txt2: #202225;
+    --txt3: grey;
 
     --radius: 3px;
-    --card-margin: 5px;
 
-    --font: arial; 
+    --card-radius: 10px;
+    --card-margin: 5px;
+    --card-padding: 10px;
+
+    --font: helvetica, "Arial";
+
 }
+

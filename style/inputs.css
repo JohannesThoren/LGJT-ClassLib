@@ -18,41 +18,51 @@
     transition: 0.2s;
 }
 
-.button_ok {
+.button-ok {
     border: 2px solid var(--acc1);
     background-color: var(--acc1);
 }
 
-.button_ok:hover {
+.button-ok:hover {
     color: var(--acc1);
 }
 
-.button_warning {
+.button-warning {
     border: 2px solid var(--acc2);
     background-color: var(--acc2);
 }
 
-.button_warning:hover {
+.button-warning:hover {
     color: var(--acc2);
 }
 
-.button_group {
+.button-group {
     display: flex;
     align-items: center;
 }
 
-.button_group .button {
+.button-group .button {
     border-radius: 0;
 }
 
-.button_group .button:first-child {
+.button-group .button:first-child {
     border-top-left-radius: var(--radius);
     border-bottom-left-radius: var(--radius);
 
 }
 
-.button_group .button:last-child{
+.button-group .button:last-child{
     border-top-right-radius: var(--radius);
     border-bottom-right-radius: var(--radius);
 
+}
+.input {
+    padding: 5px;
+    border-radius: var(--radius);
+    background-color: var(--darker);
+    border: 2px solid var(--darkest);
+    width: 70%;
+    margin: 5px;
+    color: var(--txt1);
+    font-size: 1.2em;
 }
