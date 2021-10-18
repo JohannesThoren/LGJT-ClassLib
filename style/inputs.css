@@ -69,7 +69,6 @@
     border-radius: var(--radius);
     background-color: var(--darker);
     border: 2px solid var(--darkest);
-    width: 70%;
     margin: 5px;
     color: var(--txt1);
     font-size: 1.2em;
