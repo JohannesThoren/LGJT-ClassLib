@@ -1,7 +1,17 @@
+/**
+ * Copyright (c) 2021 Johannes Thorén
+ * 
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ */
+
+
+
 :root {
-    --acc1: #3BA55D;
-    --acc2: #C03537;
-    --acc3: #7289DA;
+    --acc1: #22dd44;
+    --acc2: #dd2244;
+    --acc3: #2244dd;
 
     --dark: #36393F;
     --darker: #2F3136;

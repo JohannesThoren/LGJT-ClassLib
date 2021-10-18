@@ -1,4 +1,11 @@
-/* test */
+/**
+ * Copyright (c) 2021 Johannes Thorén
+ * 
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ */
+
 .button {
     border: 2px solid var(--acc3);
     text-decoration: none;
@@ -16,6 +23,7 @@
     background-color: transparent;
     color: var(--acc3);
     transition: 0.2s;
+    cursor: pointer;
 }
 
 .button-ok {
@@ -66,6 +74,7 @@
     color: var(--txt1);
     font-size: 1.2em;
 }
+
 
 .text-area {
     padding: 5px;
