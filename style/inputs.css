@@ -6,83 +6,60 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
-.button {
-    border: 2px solid var(--acc3);
-    text-decoration: none;
-    font-family: var(--font);
+.btn {
+    color: var(--text-color);
+    border: none;
+    display: flex;
+    align-items: center;
     border-radius: var(--radius);
-    padding: 4px;
-    background-color: var(--acc3);
-    color: white;
-    text-align: center;
-    font-size: 1.2em;
+    background-color: var(--color-normal);
     min-width: 50px;
+    font-family: var(--font);
+    font-size: 1.2em;
+    padding: var(--padding-small);
+
+    text-decoration: none;
 }
 
-.button:hover {
-    background-color: transparent;
-    color: var(--acc3);
-    transition: 0.2s;
+.btn:hover {
+    box-shadow: 0 4px 8px 0 var(--accent-1);
     cursor: pointer;
 }
 
-.button-ok {
-    border: 2px solid var(--acc1);
-    background-color: var(--acc1);
-}
-
-.button-ok:hover {
-    color: var(--acc1);
-}
-
-.button-warning {
-    border: 2px solid var(--acc2);
-    background-color: var(--acc2);
-}
-
-.button-warning:hover {
-    color: var(--acc2);
-}
-
-.button-group {
+.btn-group {
     display: flex;
-    align-items: center;
 }
 
-.button-group .button {
-    border-radius: 0;
+.btn-group .btn {
+    border-radius: 0px;
 }
 
-.button-group .button:first-child {
+.btn-group .btn:nth-child(1) {
     border-top-left-radius: var(--radius);
     border-bottom-left-radius: var(--radius);
-
 }
 
-.button-group .button:last-child{
+.btn-group .btn:last-child {
     border-top-right-radius: var(--radius);
     border-bottom-right-radius: var(--radius);
-
 }
+
 .input {
-    padding: 5px;
+    color: var(--text-color);
+
+    border: 2px solid var(--accent-1);
+    background-color: var(--background-accent);
     border-radius: var(--radius);
-    background-color: var(--darker);
-    border: 2px solid var(--darkest);
-    width: 70%;
-    margin: 5px;
-    color: var(--txt1);
+    padding: var(--padding-large);
     font-size: 1.2em;
 }
-
 
 .text-area {
-    padding: 5px;
+    color: var(--text-color);
+    resize: none;
+    border: 2px solid var(--accent-1);
     border-radius: var(--radius);
-    background-color: var(--darker);
-    border: 2px solid var(--darkest);
-    margin: 5px;
-    color: var(--txt1);
-    font: var(--font);
-    font-size: 1.2em;
+    background-color: var(--background-accent);
+    font-family: var(--font);
+    padding: var(--padding-small)
 }

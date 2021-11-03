@@ -10,30 +10,8 @@
 .txt-warning {color: var(--acc2)}
 .txt-emph {color: var(--acc3)}
 
-.dark {
-    --txt1: white;
+.ok-fg {color: var(--color-ok)}
+.warning-fg {color: var(--color-warning)}
 
-    background-color: var(--dark);
-    color: var(--txt1);
-}
-
-.darker {
-    --txt1: white;
-
-    background-color: var(--darker);
-    color: var(--txt1);
-}
-
-.darkest {
-    --txt1: white;
-
-    background-color: var(--darkest);
-    color: var(--txt1);
-}
-
-.light {
-    --txt1: black;
-    
-    background-color: var(--light);
-    color: var(--txt2);
-}
+.ok-bg {background-color: var(--color-ok)}
+.warning-bg {background-color: var(--color-warning)}

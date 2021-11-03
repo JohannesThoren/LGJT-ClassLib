@@ -6,8 +6,14 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
+
+
 @import url("inputs.css");
 @import url("cards.css");
 @import url("colors.css");
 @import url("root.css");
-@import url("text.css");
+@import url("text.css"); 
+body {
+      font-family: var(--font);
+      color: var(--text-color-1);
+ }

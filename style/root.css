@@ -6,29 +6,27 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
-
-
 :root {
-    --acc1: #22dd44;
-    --acc2: #dd2244;
-    --acc3: #2244dd;
-
-    --dark: #36393F;
-    --darker: #2F3136;
-    --darkest: #202225;
-    --light: white;
-
-    --txt1: white;
-    --txt2: #202225;
-    --txt3: grey;
-
+    --color-ok: #22dd44;
+    --color-warning: #dd2244;
+    --color-normal: var(--accent-2);
+    --padding-small: 4px;
+    --padding-medium: 6px;
+    --padding-large: 8px;
+    --outline: grey;
+    --shadow: grey;
     --radius: 3px;
-
     --card-radius: 10px;
     --card-margin: 5px;
     --card-padding: 10px;
-
     --font: helvetica, "Arial";
+    
+    /* theme */
+    --background: #0f0f0f;
+    --background-accent: #2f2f2f;
+    --accent-1: #5f5f5f;
+    --accent-2: #1155ff;
+    --text-color: WHITE;
 
+ 
 }
-
