@@ -6,6 +6,8 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
+.dark-bg {background-color: var(--background);}
+
 .txt-ok {color: var(--acc1)}
 .txt-warning {color: var(--acc2)}
 .txt-emph {color: var(--acc3)}
