@@ -11,6 +11,7 @@
     border: none;
     display: flex;
     align-items: center;
+    justify-content: center;
     border-radius: var(--radius);
     background-color: var(--color-normal);
     min-width: 50px;
@@ -48,16 +49,9 @@
     color: var(--text-color);
 
     border: 2px solid var(--accent-1);
-    background-color: var(--background-accent);
+    background-color: var(--background-accent-2);
     border-radius: var(--radius);
-<<<<<<< HEAD
-    background-color: var(--darker);
-    border: 2px solid var(--darkest);
-    margin: 5px;
-    color: var(--txt1);
-=======
     padding: var(--padding-large);
->>>>>>> 9bd7c6502b08169b51c2eb5a792f28a7bf00316d
     font-size: 1.2em;
 }
 

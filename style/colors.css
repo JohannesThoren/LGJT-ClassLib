@@ -6,7 +6,10 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
-.dark-bg {background-color: var(--background);}
+.background {background-color: var(--background);}
+.background-accent-1 {background-color: var(--background-accent-1);}
+.background-accent-2 {background-color: var(--background-accent-2);}
+
 
 .txt-ok {color: var(--acc1)}
 .txt-warning {color: var(--acc2)}

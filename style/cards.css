@@ -13,10 +13,11 @@
 
       border-radius: var(--radius);
 
-      background-color: var(--background);
+      background-color: var(--background-accent-1);
+
 }
 .card-header{
-      background-color: var(--background-accent);
+      background-color: var(--background-accent-2);
 
       position: relative;
       top: 0px;
@@ -29,5 +30,6 @@
       padding: var(--padding-large);
 }
 .card-footer{
+      background-color: var(--background-accent-2);
 
 }
