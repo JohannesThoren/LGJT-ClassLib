@@ -7,24 +7,26 @@
  */
 /*test*/
 .btn {
-    color: var(--text-color);
+    color: white;
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: var(--radius);
     background-color: var(--color-normal);
-    min-width: 50px;
+    min-width: 80px;
     font-family: var(--font);
-    font-size: 1.2em;
-    padding: var(--padding-small);
+    padding: var(--padding-medium);
 
     text-decoration: none;
+    transition: 0.2s;
 }
 
 .btn:hover {
-    box-shadow: 0 4px 8px 0 var(--accent-1);
+    background-color: var(--color-ok);
+    box-shadow: var(--shadow);
     cursor: pointer;
+
 }
 
 .btn-group {
@@ -48,17 +50,17 @@
 .input {
     color: var(--text-color);
 
-    border: 2px solid var(--accent-1);
+    border: var(--border);
     background-color: var(--background-accent-2);
     border-radius: var(--radius);
-    padding: var(--padding-large);
-    font-size: 1.2em;
+    padding: var(--padding-medium);
+    font-size: 1rem;
 }
 
 .text-area {
     color: var(--text-color);
     resize: none;
-    border: 2px solid var(--accent-1);
+    border: var(--border);
     border-radius: var(--radius);
     background-color: var(--background-accent);
     font-family: var(--font);

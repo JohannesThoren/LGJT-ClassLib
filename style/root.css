@@ -5,30 +5,32 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap');
 
 :root {
-    --color-ok: #22dd44;
+    --color-ok: #60e479;
     --color-warning: #dd2244;
     --color-normal: var(--accent-2);
     --padding-small: 4px;
-    --padding-medium: 6px;
-    --padding-large: 8px;
-    --outline: grey;
-    --shadow: grey;
-    --radius: 3px;
+    --padding-medium: 8px;
+    --padding-large: 16px;
+    --radius: 5px;
     --card-radius: 10px;
     --card-margin: 5px;
     --card-padding: 10px;
-    --font: helvetica, "Arial";
+    --font: "Rubik", sans-serif;
     
+
+    --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    --border: var(--accent-3) 0.5px solid;
+
     /* theme */
-    --background: #0f0f0f;
-    --background-accent-1: #1f1f1f;
-    --background-accent-2: #2f2f2f;
+    --background: white;
 
     --accent-1: #5f5f5f;
-    --accent-2: #1155ff;
-    --text-color: WHITE;
+    --accent-2: #507ceb;
+    --accent-3: #60e479;
 
- 
+    --text-color: #323232; 
+    --text-accent: #989898;
 }
