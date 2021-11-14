@@ -6,9 +6,11 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 /*test*/
+
+
 .btn {
+    border: 0.5px solid var(--color-normal);
     color: white;
-    border: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,13 +24,26 @@
     transition: 0.2s;
 }
 
-.btn:hover {
-    background-color: var(--color-ok);
-    box-shadow: var(--shadow);
-    cursor: pointer;
-
+.btn-hollow {
+    background-color: transparent;
+    color: var(--color-normal);
 }
 
+
+.btn:hover {
+    background-color: var(--color-ok);
+    border: 0.5px solid var(--color-ok);
+    box-shadow: var(--shadow);
+    cursor: pointer;
+    
+}
+
+.btn-hollow:hover {
+    color: var(--color-ok);
+    border: 0.5px solid var(--color-ok);
+    background-color: transparent;
+    box-shadow: var(--shadow);
+}
 .btn-group {
     display: flex;
 }
@@ -45,6 +60,11 @@
 .btn-group .btn:last-child {
     border-top-right-radius: var(--radius);
     border-bottom-right-radius: var(--radius);
+}
+
+.radio {
+    background-color: transparent;
+    color: var(--color-normal);
 }
 
 .input {

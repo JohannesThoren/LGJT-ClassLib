@@ -31,8 +31,3 @@
 .card-content{
       padding: var(--padding-medium);
 }
-.card-footer{
-      background-color: var(--background-accent-2);
-      border-bottom-left-radius: var(--radius);
-      border-bottom-right-radius: var(--radius);
-}
