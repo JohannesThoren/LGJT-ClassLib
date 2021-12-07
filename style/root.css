@@ -21,7 +21,7 @@
     --font: "Rubik", sans-serif;
     
 
-    --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    --shadow: rgba(0, 0, 0, 0.3) 0px 7px 29px 0px;
     --border: var(--accent-3) 0.5px solid;
 
     /* theme */

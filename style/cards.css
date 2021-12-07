@@ -26,7 +26,6 @@
       border-top-left-radius: var(--radius);
       border-top-right-radius: var(--radius);
       padding: var(--padding-medium);
-
 }
 .card-content{
       padding: var(--padding-medium);
