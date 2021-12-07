@@ -9,12 +9,12 @@
 
 .card {
       min-width: 100px;
-      min-height: 100px;
       box-shadow: var(--shadow);
 
       border-radius: var(--radius);
 
       background-color: var(--background);
+      transition: 0.2s;
 
 }
 .card-header{
@@ -25,7 +25,7 @@
       min-height: 10px;
       border-top-left-radius: var(--radius);
       border-top-right-radius: var(--radius);
-      padding-top: var(--padding-large);
+      padding: var(--padding-medium);
 
 }
 .card-content{
