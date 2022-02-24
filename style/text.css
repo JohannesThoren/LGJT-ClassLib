@@ -13,8 +13,8 @@ body {font-family: var(--font); color: var(--text-color)}
 
 .title {
     font-family: var(--font);
-    color: var(--accent-2);
-    font-size: 2em;
+    color: var(--accent-1);
+    font-size: 3em;
 }
 
 .subtitle {
