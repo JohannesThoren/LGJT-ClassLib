@@ -23,3 +23,6 @@ body {font-family: var(--font); color: var(--text-color)}
     font-size: 1.5em;
 }
 
+.emph {
+    color: #60e479;
+}
